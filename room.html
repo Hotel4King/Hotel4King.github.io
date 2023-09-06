@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Price</title>
+    <link rel="stylesheet" href="photostyle.css">
+    <style>
+        #container {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .position {
+            width: 30vw;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .position {
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="position">
+            <div class="button-borders">
+                <button class="primary-button"> Price: 1000
+                </button>
+            </div>
+        </div>
+        <div class="position">
+            <div class="button-borders">
+                <button class="primary-button"> Price: 1400
+                </button>
+            </div>
+        </div>
+        <div class="position">
+            <div class="button-borders">
+                <button class="primary-button"> Price: 1500
+                </button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
